@@ -1,0 +1,182 @@
+/* Limpar formatações padrão */
+* {
+    margin: 0;
+    padding: 0
+}
+
+/* Corpo */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #E6E6E6;
+    
+}
+
+
+/* Cabeçalho */
+#area-cabecalho {
+    background-color: #F7B600;
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    height: 115px;
+}
+
+h1 {
+    display: inline;
+    /* margin: 10px auto; */
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+/* Span branco */
+#branco {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+    
+}
+
+/* Formatando título */
+#titulo-principal {
+    padding: 13px;
+    /* font-size: 40px; */
+}
+
+/* Formatando area do menu e navbar */
+#area-cabecalho, #navbar {
+    padding: 10px;
+}
+
+/* Navbar */
+#navbar {
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Formatando links */
+
+.link-navbar {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 8px 12px;
+}
+
+.link-navbar:hover {
+    background: white;
+    color: #F7B600;
+}
+
+/* Area principal */
+#area-principal {
+    margin: 0 auto;
+    width: 920px;
+    padding: 15px;
+}
+
+/* Area postagem */
+#area-postagens {
+    /* border: solid 1px red; */
+    /* position: relative; */
+    width: 660px;
+    /* height: 580px; */
+    /* display: block; */
+    float: left;
+}
+
+/* Postagem */
+.postagem {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    /* display: block; */
+    /* width: 660px; */
+}
+
+/* Titulo postagem */
+h2 {
+    color: #F7B600;
+    display: inline;
+    /* border: solid 1px green; */
+}
+
+/* Data da postagem */
+#data-postagem {
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Links postagens */
+.link-postagens {
+    color: #F7B600;
+    text-decoration: none;
+}
+
+.link-postagens:hover {
+    text-decoration: underline;
+}
+
+/* Formatando imagem da postagem */
+img {
+    /* border: solid 1px red; */
+    display: block;
+    /* margin-top: 20px; */
+    width: 620px;
+    /* margin: 20px; */
+}
+
+/* Area lateral */
+#area-lateral {
+    float: right;
+    width: 240px;
+}
+
+/* Conteudo lateral */
+
+h3 {
+    background-color: #CCCCCC;
+    color: #565656;
+    padding: 5px;
+    font-size: 18.72px;
+}
+
+.conteudo-lateral {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+/* Abertura de Postagem lateral */
+.postagem-lateral {
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    font-size: 13px;
+}
+/* Fechamento de postagem */
+
+/* Link area lateral */
+.link-lateral {
+    color: #F7B600;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+/* rodape */
+#rodape {
+    background-color: #CCCCCC;
+    /* margin-top: 20px; */
+    /* margin: 0 auto; */
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    clear: both;
+}
