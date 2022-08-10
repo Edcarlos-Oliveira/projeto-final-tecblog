@@ -29,7 +29,7 @@ h1 {
 }
 /* Span branco */
 #branco {
-    font-size: 2.5em;
+    /* font-size: 2.5em; */
     font-weight: bold;
     color: white;
     
@@ -165,6 +165,10 @@ h3 {
     color: #F7B600;
     text-decoration: none;
     padding: 5px;
+}
+
+.link-lateral:hover {
+    text-decoration: underline;
 }
 
 
