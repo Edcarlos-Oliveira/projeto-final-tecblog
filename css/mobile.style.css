@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@media screen and (min-widht:992px) {
+    h1 {
+        text-align: left;
+    }    
+}
+

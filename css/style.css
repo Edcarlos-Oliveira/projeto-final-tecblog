@@ -7,8 +7,8 @@
 /* Corpo */
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #E6E6E6;
-    
+    background: #E6E6E6;   
+
 }
 
 
@@ -19,6 +19,7 @@ body {
     padding: 15px;
     text-align: center;
     height: 115px;
+    
 }
 
 h1 {
@@ -26,19 +27,22 @@ h1 {
     /* margin: 10px auto; */
     color: #4e4e4e;
     font-size: 2.5em;
+    
 }
 /* Span branco */
 #branco {
     /* font-size: 2.5em; */
     font-weight: bold;
-    color: white;
-    
+    color: white; 
+     
+
 }
 
 /* Formatando título */
 #titulo-principal {
     padding: 13px;
     /* font-size: 40px; */
+   
 }
 
 /* Formatando area do menu e navbar */
@@ -60,11 +64,13 @@ h1 {
     text-decoration: none;
     margin-top: 50px;
     padding: 8px 12px;
+    border-radius: 0.5em;
 }
 
 .link-navbar:hover {
     background: white;
     color: #F7B600;
+    text-decoration: underline;
 }
 
 /* Area principal */
@@ -72,6 +78,7 @@ h1 {
     margin: 0 auto;
     width: 920px;
     padding: 15px;
+    
 }
 
 /* Area postagem */
@@ -90,8 +97,10 @@ h1 {
     margin-bottom: 20px;
     padding: 20px;
     background-color: #ffffff;
+    border-radius: 1em;
     /* display: block; */
     /* width: 660px; */
+    
 }
 
 /* Titulo postagem */
@@ -126,6 +135,7 @@ img {
     /* margin-top: 20px; */
     width: 620px;
     /* margin: 20px; */
+    border-radius: 1em;
 }
 
 /* Area lateral */
@@ -183,4 +193,5 @@ h3 {
     text-align: center;
     font-weight: bold;
     clear: both;
+    
 }
