@@ -1,4 +1,7 @@
-/* Limpar formatações padrão */
+@charset "UTF-8";
+
+@media screen and (min-width:992px) {
+    /* Limpar formatações padrão */
 * {
     margin: 0px;
     padding: 0px;
@@ -7,11 +10,11 @@
 /* Corpo */
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: rgb(156, 149, 149);  
+    background: #E6E6E6;   
+
 }
 
 /* Cabeçalho */
-
 #area-cabecalho {
     background-color: #F7B600;
     margin: 0px;
@@ -22,37 +25,31 @@ body {
 }
 
 h1 {
-    
     display: inline;
     color: #4e4e4e;
     font-size: 2.5em;
     
 }
-
 /* Span branco */
-
 #branco {
     font-weight: bold;
     color: white; 
+     
 
 }
 
 /* Formatando título */
-
 #titulo-principal {
     padding: 13px;
-    /* font-size: 40px; */
-   
+       
 }
 
 /* Formatando area do menu e navbar */
-
 #area-cabecalho, #navbar {
     padding: 10px;
 }
 
 /* Navbar */
-
 #navbar {
     font-size: 16px;
     padding: 10px;
@@ -70,53 +67,43 @@ h1 {
 }
 
 .link-navbar:hover {
-    background: cyan;
+    background: white;
     color: #F7B600;
     text-decoration: underline;
 }
 
 /* Area principal */
-
 #area-principal {
-    margin: 0 auto;
-    width: 450px;
+    margin: auto;
+    width: 920px;
     padding: 15px;
     
 }
 
 /* Area postagem */
-
 #area-postagens {
-    
-    width: 440px;
+    width: 640px;
     float: left;
-    margin: 5px;
-    line-height: 1.5em;
-    
 }
 
 /* Postagem */
-
 .postagem {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 1em;
-    text-align: justify;
     
 }
 
 /* Titulo postagem */
-
 h2 {
-    color: #F7B600;    
-    text-align: center;
-    /* border: solid 1px green; */
+    color: #F7B600;
+    display: inline;
+    
 }
 
 /* Data da postagem */
-
 #data-postagem {
     font-size: 13px;
     padding-bottom: 10px;
@@ -125,33 +112,29 @@ h2 {
 }
 
 /* Links postagens */
-
 .link-postagens {
     color: #F7B600;
     text-decoration: none;
+    
 }
 
 .link-postagens:hover {
     text-decoration: underline;
-    color: blue;
 }
 
 /* Formatando imagem da postagem */
-
 img {
-
     display: block;
-    width: 400px;
+    width: 600px;
     border-radius: 1em;
-    margin-bottom: 15px;
 }
 
 /* Area lateral */
-
 #area-lateral {
-    float: left;
-    width: 280px;
-    margin-left: 80px;
+    margin: 0px;
+    padding: 8px;
+    float: right;
+    width: 240px;
     
 }
 
@@ -162,8 +145,6 @@ h3 {
     color: #565656;
     padding: 5px;
     font-size: 18.72px;
-    text-align: center;
-    border-radius: 0.5em;
 }
 
 .conteudo-lateral {
@@ -172,13 +153,10 @@ h3 {
     margin-top: 20px; 
     margin-bottom: 20px;
     font-size: 16px;
-    text-align: justify;
-    border-radius: 1em;
 }
 
 
 /* Abertura de Postagem lateral */
-
 .postagem-lateral {
     padding: 10px;
     font-size: 13px;
@@ -186,7 +164,6 @@ h3 {
 /* Fechamento de postagem */
 
 /* Link area lateral */
-
 .link-lateral {
     color: #F7B600;
     text-decoration: none;
@@ -195,30 +172,17 @@ h3 {
 
 .link-lateral:hover {
     text-decoration: underline;
-    color: blue;
 }
 
-
 /* rodape */
-
 #rodape {
-
     background-color: #CCCCCC;
     padding: 20px;
     display: block;
     text-align: center;
     font-weight: bold;
-    clear: both;
-    margin: 0px;
-    border-radius: 0.7em;        
+    clear: both;    
+    
 }
-.link-rodape {
-    text-decoration: none;
-    color: blue;
-}
-
-.link-rodape:hover {
-    color: blueviolet;
-    pointer-events: visible;
-    text-decoration: underline;    
+    
 }
